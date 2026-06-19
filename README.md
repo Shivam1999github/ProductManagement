@@ -1,3 +1,43 @@
+## Screenshots
+
+### Application Running Locally
+
+The application has been successfully executed in the local development environment.
+
+![Application Running](./screenshot.png)
+
+This screenshot demonstrates:
+
+* API running successfully
+* Swagger UI loaded
+* Available API endpoints
+* Successful local execution environment
+
+---
+
+# Repository Contents
+
+```text
+ProductApiAssessment
+│
+├── screenshot.png
+├── docker-compose.yml
+├── Dockerfile
+├── README.md
+│
+├── src
+│   ├── API
+│   ├── Application
+│   ├── Domain
+│   └── Infrastructure
+│
+└── tests
+    ├── API.Tests
+    ├── Application.Tests
+    └── Infrastructure.Tests
+```
+
+
 # Product API Assessment
 
 A RESTful Backend API built with .NET 8 following Clean Architecture principles, implementing CRUD operations for Products and Items with JWT Authentication, Repository Pattern, Unit of Work, FluentValidation, Swagger documentation, Docker support, and automated testing.
